@@ -1,0 +1,21 @@
+{
+  "name": "revere-front-end-framework",
+  "version": "0.0.1",
+  "description": "Revere Suite front-end standardization",
+  "scripts": {
+    "buildDev": "node scripts/buildDev.js",
+    "buildProd": "node scripts/buildProd.js",
+    "buildStaging": "node scripts/buildStaging.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missedtheboat/revere-front-end-framework.git"
+  },
+  "author": "Alex Zielonko",
+  "devDependencies": {
+    "clean-css": "^3.4.9",
+    "kss": "^2.3.3",
+    "node-sass": "^3.4.2",
+    "rsvp": "^3.1.0"
+  }
+}
